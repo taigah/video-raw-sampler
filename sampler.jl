@@ -8,18 +8,7 @@ using InteractiveUtils
 using Pkg
 
 # ╔═╡ 24aafa54-b585-11eb-1663-014fcb679a76
-Pkg.activate()
-
-# ╔═╡ 692d83c5-ffb4-4b40-b989-3039952a9e37
-Pkg.add([
-	"FileIO",
-	"VideoIO",
-	"ImageShow",
-	"ImageMagick",
-	"ColorTypes",
-	"FixedPointNumbers",
-	"ImageTransformations"
-])
+Pkg.activate(".")
 
 # ╔═╡ 36cb387a-c18f-4991-a372-28b80a6b51a1
 begin
@@ -90,7 +79,6 @@ end
 # ╠═098a1f39-fc55-4e2b-8ee3-80c447e64bc8
 # ╟─c8fb4baa-5a05-41b4-9d29-d3e314c94c2f
 # ╟─24aafa54-b585-11eb-1663-014fcb679a76
-# ╟─692d83c5-ffb4-4b40-b989-3039952a9e37
 # ╟─36cb387a-c18f-4991-a372-28b80a6b51a1
 # ╟─4194db70-0a62-4225-bafb-6b94cdb2a3d6
 # ╟─054cb675-1b30-4d76-ad9b-8b678710808c
